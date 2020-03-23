@@ -18,7 +18,7 @@ public class ObradaBoksac extends Obrada<Boksac>{
 
     @Override
     protected void kontrolaCreate() throws EdunovaException {
-        
+        kontrolaOib();
     }
 
     @Override
