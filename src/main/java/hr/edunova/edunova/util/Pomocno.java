@@ -5,11 +5,19 @@
  */
 package hr.edunova.edunova.util;
 
+import hr.edunova.edunova.model.Operater;
+
 /**
  *
  * @author Nino
  */
 public class Pomocno {
+    
+    public static Operater LOGIRAN;
+    
+    public static String getNazivAplikacije(){
+        return "Edunova APP";
+    }
     
     public static boolean isOibValjan(String oib) {
         
