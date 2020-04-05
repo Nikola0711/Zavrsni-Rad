@@ -5,7 +5,10 @@
  */
 package hr.edunova.edunova.view;
 
+<<<<<<< HEAD
 import hr.edunova.edunova.util.HibernateUtil;
+=======
+>>>>>>> b6aaef2c683705a38b929e3f9521630717b6cd15
 import hr.edunova.edunova.util.Pomocno;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -56,7 +59,10 @@ public class Izbornik extends javax.swing.JFrame {
         lblVrijeme = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jmAplikacija = new javax.swing.JMenu();
+<<<<<<< HEAD
         jMenuItem1 = new javax.swing.JMenuItem();
+=======
+>>>>>>> b6aaef2c683705a38b929e3f9521630717b6cd15
         jMenu2 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -64,6 +70,7 @@ public class Izbornik extends javax.swing.JFrame {
         lblVrijeme.setText("vrijeme");
 
         jmAplikacija.setText("Aplikacije");
+<<<<<<< HEAD
 
         jMenuItem1.setText("izlaz");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
@@ -73,6 +80,8 @@ public class Izbornik extends javax.swing.JFrame {
         });
         jmAplikacija.add(jMenuItem1);
 
+=======
+>>>>>>> b6aaef2c683705a38b929e3f9521630717b6cd15
         jMenuBar1.add(jmAplikacija);
 
         jMenu2.setText("Programi");
@@ -98,18 +107,24 @@ public class Izbornik extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+<<<<<<< HEAD
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
         HibernateUtil.getSessionFactory().close();
         dispose();
         System.exit(0);
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
+=======
+>>>>>>> b6aaef2c683705a38b929e3f9521630717b6cd15
    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
+<<<<<<< HEAD
     private javax.swing.JMenuItem jMenuItem1;
+=======
+>>>>>>> b6aaef2c683705a38b929e3f9521630717b6cd15
     private javax.swing.JMenu jmAplikacija;
     private javax.swing.JLabel lblVrijeme;
     // End of variables declaration//GEN-END:variables

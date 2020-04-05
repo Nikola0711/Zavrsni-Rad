@@ -8,6 +8,7 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Aplikacije"/>
           </Properties>
+<<<<<<< HEAD
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
               <Properties>
@@ -18,6 +19,8 @@
               </Events>
             </MenuItem>
           </SubComponents>
+=======
+>>>>>>> b6aaef2c683705a38b929e3f9521630717b6cd15
         </Menu>
         <Menu class="javax.swing.JMenu" name="jMenu2">
           <Properties>
