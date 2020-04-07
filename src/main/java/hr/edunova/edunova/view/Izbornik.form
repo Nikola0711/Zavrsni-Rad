@@ -8,6 +8,10 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Aplikacije"/>
           </Properties>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
               <Properties>
@@ -18,11 +22,17 @@
               </Events>
             </MenuItem>
           </SubComponents>
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> b6aaef2c683705a38b929e3f9521630717b6cd15
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
         </Menu>
         <Menu class="javax.swing.JMenu" name="jMenu2">
           <Properties>
             <Property name="text" type="java.lang.String" value="Programi"/>
           </Properties>
+<<<<<<< HEAD
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2">
               <Properties>
@@ -49,6 +59,8 @@
               </Events>
             </MenuItem>
           </SubComponents>
+=======
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
         </Menu>
       </SubComponents>
     </Menu>

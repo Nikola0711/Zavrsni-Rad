@@ -22,9 +22,33 @@ public class Autorizacija extends javax.swing.JFrame {
     public Autorizacija() {
         initComponents();
     }
+<<<<<<< HEAD
                                                  
 
          
+=======
+    
+    private void btnAutorizirajActionPerformed(java.awt.event.ActionEvent evt) {                                               
+       
+        ObradaOperater op = new ObradaOperater();
+        
+        Operater o = op.autoriziraj(txtEmail.getText().trim(), new String(pswLozinka.getPassword()));
+        
+        
+        if(o==null){
+            JOptionPane.showMessageDialog(null, "Greška, ponovite");
+            return;
+        }
+        Pomocno.LOGIRAN=o;
+       new Izbornik().setVisible(true);
+       dispose();
+        
+    }                                              
+
+    private void btnRegistracijaActionPerformed(java.awt.event.ActionEvent evt) {                                                
+        new Registracija().setVisible(true);
+    }         
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -49,6 +73,7 @@ public class Autorizacija extends javax.swing.JFrame {
         jLabel2.setText("lozinka");
 
         btnAutoriziraj.setText("Autoriziraj");
+<<<<<<< HEAD
         btnAutoriziraj.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAutorizirajActionPerformed(evt);
@@ -61,6 +86,10 @@ public class Autorizacija extends javax.swing.JFrame {
                 btnRegistracijaActionPerformed(evt);
             }
         });
+=======
+
+        btnRegistracija.setText("Registracija");
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -101,6 +130,7 @@ public class Autorizacija extends javax.swing.JFrame {
         );
 
         pack();
+<<<<<<< HEAD
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
@@ -123,6 +153,10 @@ public class Autorizacija extends javax.swing.JFrame {
         new Registracija().setVisible(true);
     }//GEN-LAST:event_btnRegistracijaActionPerformed
 
+=======
+    }// </editor-fold>//GEN-END:initComponents
+
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
