@@ -32,6 +32,12 @@ public class Kategorija extends Entitet{
     public void setRaspon(Integer raspon) {
         this.raspon = raspon;
     }
+
+    @Override
+    public String toString() {
+        return this.naziv;
+    }
+    
     
     
     

@@ -60,6 +60,10 @@ public class Trener extends Entitet{
         this.uloga = uloga;
     }
     
+    @Override
+    public String toString() {
+        return this.ime +" "+ this.prezime;
+    }
     
     
     
