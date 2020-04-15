@@ -36,7 +36,11 @@ public class ViewKlub extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         txtBrojClanova = new javax.swing.JTextField();
 
+<<<<<<< HEAD
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+=======
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
 
         jLabel1.setText("Naziv kluba");
 
@@ -86,7 +90,10 @@ public class ViewKlub extends javax.swing.JFrame {
         );
 
         pack();
+<<<<<<< HEAD
         setLocationRelativeTo(null);
+=======
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
     }// </editor-fold>//GEN-END:initComponents
 
     /**

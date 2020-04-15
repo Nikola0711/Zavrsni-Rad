@@ -8,6 +8,16 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Aplikacije"/>
           </Properties>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
               <Properties>
@@ -18,11 +28,29 @@
               </Events>
             </MenuItem>
           </SubComponents>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> b6aaef2c683705a38b929e3f9521630717b6cd15
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
         </Menu>
         <Menu class="javax.swing.JMenu" name="jMenu2">
           <Properties>
             <Property name="text" type="java.lang.String" value="Programi"/>
           </Properties>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2">
               <Properties>
@@ -48,6 +76,10 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem4ActionPerformed"/>
               </Events>
             </MenuItem>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem5">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Klub"/>
@@ -57,6 +89,14 @@
               </Events>
             </MenuItem>
           </SubComponents>
+<<<<<<< HEAD
+=======
+=======
+          </SubComponents>
+=======
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
         </Menu>
       </SubComponents>
     </Menu>
@@ -67,7 +107,11 @@
   <SyntheticProperties>
     <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+<<<<<<< HEAD
     <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+=======
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
   </SyntheticProperties>
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>

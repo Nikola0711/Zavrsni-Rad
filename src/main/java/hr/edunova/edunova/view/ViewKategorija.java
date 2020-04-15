@@ -27,7 +27,10 @@ public class ViewKategorija extends javax.swing.JFrame {
     public ViewKategorija() {
         initComponents();
         obrada=new ObradaKategorije();
+<<<<<<< HEAD
         ucitaj();
+=======
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
     }
     
     private void ucitaj() {
@@ -38,14 +41,21 @@ public class ViewKategorija extends javax.swing.JFrame {
     
     private void ucitajVrijednosti() {
         obrada.getEntitet().setNaziv(txtNaziv.getText());
+<<<<<<< HEAD
         obrada.getEntitet().setRaspon(txtRaspon.getText());
+=======
+        obrada.getEntitet().setRaspon(Integer.parseInt(txtRaspon.getText()));
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
         
         
     }
     
      private void postaviVrijednosti() {
         txtNaziv.setText(obrada.getEntitet().getNaziv());
+<<<<<<< HEAD
         txtRaspon.setText(obrada.getEntitet().getRaspon());
+=======
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
         
 
        
@@ -72,7 +82,11 @@ public class ViewKategorija extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
 
+<<<<<<< HEAD
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+=======
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
 
         jLabel1.setText("Naziv");
 
@@ -150,7 +164,10 @@ public class ViewKategorija extends javax.swing.JFrame {
         );
 
         pack();
+<<<<<<< HEAD
         setLocationRelativeTo(null);
+=======
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
