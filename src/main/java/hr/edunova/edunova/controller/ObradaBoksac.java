@@ -46,4 +46,12 @@ public class ObradaBoksac extends Obrada<Boksac>{
             throw new EdunovaException("OIB nije valjan");
         }
     }
+    
+    public List<Boksac> getPodaci(String uvjet){
+        return session.createQuery("from Boksac b "
+                + " where concat(b.ime, ' ', b.prezime) like :uvjet "
+                + " or concat(b.prezime, ' ', b.ime) like :uvjet ")
+                .setParameter("uvjet", "%" + uvjet + "%")
+                .setMaxResults(20).list();
+    }
 }

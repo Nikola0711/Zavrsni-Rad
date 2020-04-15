@@ -50,10 +50,12 @@ public class ObradaTrener extends Obrada<Trener>{
     }
     
     private void kontrolaIban() throws EdunovaException{
-        IBANValidator iv =  IBANValidator.getInstance();
+       /* IBANValidator iv =  IBANValidator.getInstance();
         iv.setValidator("hr", 32, "");
         if(!iv.isValid(entitet.getIban())){
             throw  new EdunovaException("IBAN nije dobar");
         }
+*/
     }
+
 }
