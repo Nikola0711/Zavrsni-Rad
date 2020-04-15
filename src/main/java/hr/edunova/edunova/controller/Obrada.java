@@ -15,6 +15,16 @@ import org.hibernate.Session;
  * @author Nino
  */
 public abstract class Obrada<T> {
+
+    public T getEntitet() {
+        return entitet;
+    }
+
+    public void setEntitet(T entitet) {
+        this.entitet = entitet;
+    }
+    
+    
     
     protected T entitet;
     protected Session session;

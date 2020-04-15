@@ -81,6 +81,13 @@ public class Boksac extends Entitet{
     public void setTreneri(List<Trener> treneri) {
         this.treneri = treneri;
     }
+
+    @Override
+    public String toString() {
+        return this.ime +" "+ this.prezime;
+    }
+    
+    
     
     
     
