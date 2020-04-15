@@ -6,7 +6,15 @@
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+<<<<<<< HEAD
     <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+=======
+<<<<<<< HEAD
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+=======
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
   </SyntheticProperties>
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
@@ -85,17 +93,35 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Autoriziraj"/>
       </Properties>
+<<<<<<< HEAD
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAutorizirajActionPerformed"/>
       </Events>
+=======
+<<<<<<< HEAD
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAutorizirajActionPerformed"/>
+      </Events>
+=======
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
     </Component>
     <Component class="javax.swing.JButton" name="btnRegistracija">
       <Properties>
         <Property name="text" type="java.lang.String" value="Registracija"/>
       </Properties>
+<<<<<<< HEAD
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRegistracijaActionPerformed"/>
       </Events>
+=======
+<<<<<<< HEAD
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRegistracijaActionPerformed"/>
+      </Events>
+=======
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
     </Component>
   </SubComponents>
 </Form>

@@ -32,6 +32,10 @@
                   <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
+=======
+                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
                   <Group type="102" attributes="0">
                       <Component id="btnDodajNovi" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
@@ -44,6 +48,10 @@
                       <Component id="txtPrezime" alignment="0" max="32767" attributes="0"/>
                       <Component id="txtOib" alignment="0" max="32767" attributes="0"/>
                       <Component id="txtIban" alignment="0" max="32767" attributes="0"/>
+<<<<<<< HEAD
+=======
+                      <Component id="txtUloga" alignment="0" max="32767" attributes="0"/>
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
                   </Group>
               </Group>
               <EmptySpace pref="99" max="32767" attributes="0"/>
@@ -71,7 +79,15 @@
                       <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="txtIban" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                       <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+=======
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="txtUloga" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="btnDodajNovi" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="btnPromjeni" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -94,6 +110,10 @@
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
       <SubComponents>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
         <Component class="javax.swing.JList" name="lstPodaci">
           <Properties>
             <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
@@ -105,6 +125,25 @@
           </Events>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;Trener&gt;"/>
+<<<<<<< HEAD
+=======
+=======
+        <Component class="javax.swing.JList" name="jList1">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value="Item 1"/>
+                <StringItem index="1" value="Item 2"/>
+                <StringItem index="2" value="Item 3"/>
+                <StringItem index="3" value="Item 4"/>
+                <StringItem index="4" value="Item 5"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
           </AuxValues>
         </Component>
       </SubComponents>
@@ -137,29 +176,66 @@
     </Component>
     <Component class="javax.swing.JTextField" name="txtIban">
     </Component>
+<<<<<<< HEAD
+=======
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Uloga"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtUloga">
+    </Component>
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
     <Component class="javax.swing.JButton" name="btnDodajNovi">
       <Properties>
         <Property name="text" type="java.lang.String" value="Dodaj novi"/>
       </Properties>
+<<<<<<< HEAD
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDodajNoviActionPerformed"/>
       </Events>
+=======
+<<<<<<< HEAD
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDodajNoviActionPerformed"/>
+      </Events>
+=======
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
     </Component>
     <Component class="javax.swing.JButton" name="btnPromjeni">
       <Properties>
         <Property name="text" type="java.lang.String" value="Promjeni"/>
       </Properties>
+<<<<<<< HEAD
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPromjeniActionPerformed"/>
       </Events>
+=======
+<<<<<<< HEAD
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPromjeniActionPerformed"/>
+      </Events>
+=======
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
     </Component>
     <Component class="javax.swing.JButton" name="btnObrisi">
       <Properties>
         <Property name="text" type="java.lang.String" value="Obrisi"/>
       </Properties>
+<<<<<<< HEAD
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnObrisiActionPerformed"/>
       </Events>
+=======
+<<<<<<< HEAD
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnObrisiActionPerformed"/>
+      </Events>
+=======
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
     </Component>
   </SubComponents>
 </Form>

@@ -5,6 +5,10 @@
  */
 package hr.edunova.edunova.util;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import hr.edunova.edunova.controller.ObradaOperater;
@@ -18,6 +22,12 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 import org.mindrot.jbcrypt.BCrypt;
+<<<<<<< HEAD
+=======
+=======
+import hr.edunova.edunova.model.Operater;
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
 
 /**
  *

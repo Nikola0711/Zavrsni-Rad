@@ -22,9 +22,39 @@ public class Autorizacija extends javax.swing.JFrame {
     public Autorizacija() {
         initComponents();
     }
+<<<<<<< HEAD
                                                  
 
          
+=======
+<<<<<<< HEAD
+                                                 
+
+         
+=======
+    
+    private void btnAutorizirajActionPerformed(java.awt.event.ActionEvent evt) {                                               
+       
+        ObradaOperater op = new ObradaOperater();
+        
+        Operater o = op.autoriziraj(txtEmail.getText().trim(), new String(pswLozinka.getPassword()));
+        
+        
+        if(o==null){
+            JOptionPane.showMessageDialog(null, "Greška, ponovite");
+            return;
+        }
+        Pomocno.LOGIRAN=o;
+       new Izbornik().setVisible(true);
+       dispose();
+        
+    }                                              
+
+    private void btnRegistracijaActionPerformed(java.awt.event.ActionEvent evt) {                                                
+        new Registracija().setVisible(true);
+    }         
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -49,6 +79,10 @@ public class Autorizacija extends javax.swing.JFrame {
         jLabel2.setText("lozinka");
 
         btnAutoriziraj.setText("Autoriziraj");
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
         btnAutoriziraj.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAutorizirajActionPerformed(evt);
@@ -61,6 +95,13 @@ public class Autorizacija extends javax.swing.JFrame {
                 btnRegistracijaActionPerformed(evt);
             }
         });
+<<<<<<< HEAD
+=======
+=======
+
+        btnRegistracija.setText("Registracija");
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -101,6 +142,10 @@ public class Autorizacija extends javax.swing.JFrame {
         );
 
         pack();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
@@ -123,6 +168,13 @@ public class Autorizacija extends javax.swing.JFrame {
         new Registracija().setVisible(true);
     }//GEN-LAST:event_btnRegistracijaActionPerformed
 
+<<<<<<< HEAD
+=======
+=======
+    }// </editor-fold>//GEN-END:initComponents
+
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
