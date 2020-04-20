@@ -14,7 +14,7 @@ create database hibernate default character set utf8;
     <session-factory>
         <!-- JDBC Database connection settings -->
         <property name="connection.driver_class">org.mariadb.jdbc.Driver</property>
-        <property name="connection.url">jdbc:mariadb://localhost:3306/hibernate?useSSL=false</property>
+        <property name="connection.url">jdbc:mariadb://localhost:3306/ZavrsniRad?useSSL=false</property>
         <property name="connection.username">edunova</property>
         <property name="connection.password">edunova</property>
         <!-- JDBC connection pool settings ... using built-in test pool -->
@@ -27,7 +27,7 @@ create database hibernate default character set utf8;
         <!-- Set the current session context -->
         <property name="current_session_context_class">thread</property>
         <!-- Drop and re-create the database schema on startup -->
-        <property name="hbm2ddl.auto">create-drop</property>
+        <property name="hbm2ddl.auto">update</property>
         <!-- dbcp connection pool configuration -->
         <property name="hibernate.dbcp.initialSize">5</property>
         <property name="hibernate.dbcp.maxTotal">20</property>
@@ -40,7 +40,10 @@ create database hibernate default character set utf8;
         
         
         
-        <mapping class="" />
+        <mapping class="hr.edunova.edunova.model.Kategorija" />
+        <mapping class="hr.edunova.edunova.model.Trener" />
+        <mapping class="hr.edunova.edunova.model.Boksac" />
+        <mapping class="hr.edunova.edunova.model.Operater" />
         
     </session-factory>
 </hibernate-configuration>

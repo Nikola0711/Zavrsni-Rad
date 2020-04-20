@@ -15,6 +15,16 @@ import org.hibernate.Session;
  * @author Nino
  */
 public abstract class Obrada<T> {
+
+    public T getEntitet() {
+        return entitet;
+    }
+
+    public void setEntitet(T entitet) {
+        this.entitet = entitet;
+    }
+    
+    
     
     protected T entitet;
     protected Session session;
@@ -22,6 +32,7 @@ public abstract class Obrada<T> {
     protected abstract void kontrolaUpdate() throws EdunovaException;
     protected abstract void kontrolaDelete() throws EdunovaException;
     public abstract List<T> getPodaci();
+    
     protected abstract void nakonSpremanja() throws EdunovaException;
     
     public Obrada(T entitet){

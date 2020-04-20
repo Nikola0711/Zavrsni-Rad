@@ -12,6 +12,7 @@ import javax.persistence.Entity;
 import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 
 /**
  *
@@ -19,6 +20,8 @@ import javax.persistence.OneToMany;
  */
 @Entity
 public class Boksac extends Entitet{
+    
+    
     
     private String ime;
     
@@ -31,8 +34,11 @@ public class Boksac extends Entitet{
     
     private Date datumRodenja;
     
-    @ManyToMany
-    private List<Trener> treneri = new ArrayList<>();
+    @ManyToOne
+    private Trener trener;
+    
+   
+    
 
     public String getIme() {
         return ime;
@@ -74,13 +80,21 @@ public class Boksac extends Entitet{
         this.datumRodenja = datumRodenja;
     }
 
-    public List<Trener> getTreneri() {
-        return treneri;
+    public Trener getTrener() {
+        return trener;
     }
 
-    public void setTreneri(List<Trener> treneri) {
-        this.treneri = treneri;
+    public void setTrener(Trener trener) {
+        this.trener = trener;
     }
+
+
+    @Override
+    public String toString() {
+        return this.ime +" "+ this.prezime;
+    }
+    
+    
     
     
     
