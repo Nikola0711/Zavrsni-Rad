@@ -54,5 +54,8 @@ public class ObradaBoksac extends Obrada<Boksac>{
                 .setParameter("uvjet", "%" + uvjet + "%")
                 .setMaxResults(20).list();
     }
+<<<<<<< HEAD
     
+=======
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
 }

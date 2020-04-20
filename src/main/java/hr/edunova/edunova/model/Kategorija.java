@@ -33,8 +33,21 @@ public class Kategorija extends Entitet{
         this.raspon = raspon;
     }
 
+<<<<<<< HEAD
    
 
+=======
+<<<<<<< HEAD
+   
+
+=======
+<<<<<<< HEAD
+   
+
+=======
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
     @Override
     public String toString() {
         return this.naziv;

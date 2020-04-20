@@ -16,9 +16,14 @@ import hr.edunova.edunova.view.SplashScreen;
 public class Start {
     
     public Start(){
+<<<<<<< HEAD
         
         //Pomocno.PocetniInsert();
         new SplashScreen().setVisible(true);
+=======
+        new SplashScreen().setVisible(true);
+        //Pomocno.PocetniInsert();
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
     }
     
     public static void main(String[] args) {

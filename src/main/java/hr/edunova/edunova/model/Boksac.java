@@ -34,11 +34,20 @@ public class Boksac extends Entitet{
     
     private Date datumRodenja;
     
+<<<<<<< HEAD
     @ManyToOne
     private Trener trener;
     
    
     
+=======
+<<<<<<< HEAD
+    @ManyToOne
+=======
+    @OneToOne
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+    private Trener trener;
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
 
     public String getIme() {
         return ime;
@@ -82,6 +91,16 @@ public class Boksac extends Entitet{
 
     public Trener getTrener() {
         return trener;
+<<<<<<< HEAD
+    }
+
+    public void setTrener(Trener trener) {
+        this.trener = trener;
+    }
+
+
+=======
+<<<<<<< HEAD
     }
 
     public void setTrener(Trener trener) {
@@ -92,9 +111,30 @@ public class Boksac extends Entitet{
     @Override
     public String toString() {
         return this.ime +" "+ this.prezime;
+=======
+    }
+
+    public void setTrener(Trener trener) {
+        this.trener = trener;
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+    }
+
+<<<<<<< HEAD
+
+=======
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
+    @Override
+    public String toString() {
+        return this.ime +" "+ this.prezime;
     }
     
     
+<<<<<<< HEAD
+=======
+    
+    
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
     
     
     

@@ -46,6 +46,20 @@
             <artifactId>jbcrypt</artifactId>
             <version>0.4</version>
         </dependency>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        
+        <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.6</version>
+        </dependency>
+        
+=======
+<<<<<<< HEAD
+=======
         
         <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
         <dependency>
@@ -60,12 +74,46 @@
             <artifactId>jbcrypt</artifactId>
             <version>0.4</version>
         </dependency>
+
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
+        
+        <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.6</version>
+        </dependency>
+<<<<<<< HEAD
+        
+        <!-- https://mvnrepository.com/artifact/org.mindrot/jbcrypt -->
+        <dependency>
+            <groupId>org.mindrot</groupId>
+            <artifactId>jbcrypt</artifactId>
+            <version>0.4</version>
+        </dependency>
         <dependency>
             <groupId>unknown.binary</groupId>
             <artifactId>jcalendar-1.4</artifactId>
             <version>SNAPSHOT</version>
         </dependency>
         
+=======
+        
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+        <!-- https://mvnrepository.com/artifact/org.mindrot/jbcrypt -->
+        <dependency>
+            <groupId>org.mindrot</groupId>
+            <artifactId>jbcrypt</artifactId>
+            <version>0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>unknown.binary</groupId>
+            <artifactId>jcalendar-1.4</artifactId>
+            <version>SNAPSHOT</version>
+        </dependency>
+        
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
         <!-- https://mvnrepository.com/artifact/com.toedter/jcalendar -->
 <dependency>
     <groupId>com.toedter</groupId>
@@ -73,6 +121,10 @@
     <version>1.4</version>
 </dependency>
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
 <!-- https://mvnrepository.com/artifact/com.github.lgooddatepicker/LGoodDatePicker -->
 <dependency>
     <groupId>com.github.lgooddatepicker</groupId>
@@ -86,5 +138,10 @@
     <version>10.3.1</version>
 </dependency>
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
     </dependencies>
 </project>

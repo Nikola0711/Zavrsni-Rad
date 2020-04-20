@@ -8,6 +8,22 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Aplikacije"/>
           </Properties>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
               <Properties>
@@ -18,11 +34,41 @@
               </Events>
             </MenuItem>
           </SubComponents>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> b6aaef2c683705a38b929e3f9521630717b6cd15
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
         </Menu>
         <Menu class="javax.swing.JMenu" name="jMenu2">
           <Properties>
             <Property name="text" type="java.lang.String" value="Programi"/>
           </Properties>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2">
               <Properties>
@@ -48,7 +94,37 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem4ActionPerformed"/>
               </Events>
             </MenuItem>
+<<<<<<< HEAD
           </SubComponents>
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Klub"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem5ActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+          </SubComponents>
+=======
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
         </Menu>
       </SubComponents>
     </Menu>
@@ -59,7 +135,19 @@
   <SyntheticProperties>
     <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+<<<<<<< HEAD
     <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+=======
+<<<<<<< HEAD
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+=======
+<<<<<<< HEAD
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+=======
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
   </SyntheticProperties>
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
@@ -78,6 +166,7 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <Component id="lblVrijeme" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
               <EmptySpace min="0" pref="399" max="32767" attributes="0"/>
           </Group>
           <Group type="102" alignment="0" attributes="0">
@@ -96,12 +185,16 @@
                   <Component id="jLabel1" alignment="0" min="-2" pref="189" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="32767" attributes="0"/>
+=======
+              <EmptySpace min="0" pref="365" max="32767" attributes="0"/>
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
+<<<<<<< HEAD
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jLabel1" min="-2" pref="48" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
@@ -116,6 +209,9 @@
                   <Component id="btnRefresh" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="37" max="32767" attributes="0"/>
+=======
+              <EmptySpace min="0" pref="264" max="32767" attributes="0"/>
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
               <Component id="lblVrijeme" min="-2" max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -127,6 +223,7 @@
         <Property name="text" type="java.lang.String" value="vrijeme"/>
       </Properties>
     </Component>
+<<<<<<< HEAD
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -172,5 +269,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRefreshActionPerformed"/>
       </Events>
     </Component>
+=======
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
   </SubComponents>
 </Form>

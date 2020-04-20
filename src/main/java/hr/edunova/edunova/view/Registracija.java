@@ -52,7 +52,15 @@ public class Registracija extends javax.swing.JFrame {
         txtOib = new javax.swing.JTextField();
         btnRegistriraj = new javax.swing.JButton();
 
+<<<<<<< HEAD
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+=======
+<<<<<<< HEAD
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+=======
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
 
         jLabel1.setText("email");
 
@@ -67,11 +75,20 @@ public class Registracija extends javax.swing.JFrame {
         jLabel6.setText("OIB");
 
         btnRegistriraj.setText("Registriraj");
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
         btnRegistriraj.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnRegistrirajActionPerformed(evt);
             }
         });
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -81,6 +98,10 @@ public class Registracija extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addComponent(btnRegistriraj, javax.swing.GroupLayout.DEFAULT_SIZE, 178, Short.MAX_VALUE)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
                     .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(txtEmail, javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.LEADING)
@@ -93,6 +114,24 @@ public class Registracija extends javax.swing.JFrame {
                     .addComponent(txtPrezime, javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel6, javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(txtOib, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 178, Short.MAX_VALUE))
+<<<<<<< HEAD
+=======
+=======
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(jLabel1)
+                        .addComponent(txtEmail)
+                        .addComponent(jLabel2)
+                        .addComponent(pswLozinka)
+                        .addComponent(jLabel3)
+                        .addComponent(pswLozinkaPonovo)
+                        .addComponent(jLabel4)
+                        .addComponent(txtIme)
+                        .addComponent(jLabel5)
+                        .addComponent(txtPrezime)
+                        .addComponent(jLabel6)
+                        .addComponent(txtOib, javax.swing.GroupLayout.DEFAULT_SIZE, 178, Short.MAX_VALUE)))
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -128,10 +167,22 @@ public class Registracija extends javax.swing.JFrame {
         );
 
         pack();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnRegistrirajActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistrirajActionPerformed
+<<<<<<< HEAD
+=======
+=======
+    }// </editor-fold>//GEN-END:initComponents
+private void btnRegistrirajActionPerformed(java.awt.event.ActionEvent evt) {                                               
+      
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
         if(!Arrays.equals(pswLozinka.getPassword(), pswLozinkaPonovo.getPassword())){
             JOptionPane.showMessageDialog(null, "Lozinke ne odgovaraju");
             return;
@@ -154,8 +205,18 @@ public class Registracija extends javax.swing.JFrame {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
+<<<<<<< HEAD
     }//GEN-LAST:event_btnRegistrirajActionPerformed
 
+=======
+<<<<<<< HEAD
+    }//GEN-LAST:event_btnRegistrirajActionPerformed
+
+=======
+      
+    }
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnRegistriraj;

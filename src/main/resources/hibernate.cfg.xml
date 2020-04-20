@@ -43,6 +43,10 @@ create database hibernate default character set utf8;
         <mapping class="hr.edunova.edunova.model.Kategorija" />
         <mapping class="hr.edunova.edunova.model.Trener" />
         <mapping class="hr.edunova.edunova.model.Boksac" />
+<<<<<<< HEAD
+=======
+        <mapping class="hr.edunova.edunova.model.Klub" />
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
         <mapping class="hr.edunova.edunova.model.Operater" />
         
     </session-factory>

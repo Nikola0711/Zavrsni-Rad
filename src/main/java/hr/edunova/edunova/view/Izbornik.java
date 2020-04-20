@@ -5,6 +5,7 @@
  */
 package hr.edunova.edunova.view;
 
+<<<<<<< HEAD
 import hr.edunova.edunova.controller.ObradaBoksac;
 import hr.edunova.edunova.model.Boksac;
 import hr.edunova.edunova.util.HibernateUtil;
@@ -13,28 +14,65 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+=======
+<<<<<<< HEAD
+import hr.edunova.edunova.util.HibernateUtil;
+=======
+<<<<<<< HEAD
+import hr.edunova.edunova.util.HibernateUtil;
+=======
+<<<<<<< HEAD
+import hr.edunova.edunova.util.HibernateUtil;
+=======
+<<<<<<< HEAD
+import hr.edunova.edunova.util.HibernateUtil;
+=======
+<<<<<<< HEAD
+import hr.edunova.edunova.util.HibernateUtil;
+=======
+>>>>>>> b6aaef2c683705a38b929e3f9521630717b6cd15
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+import hr.edunova.edunova.util.Pomocno;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
 
 /**
  *
  * @author Nino
  */
 public class Izbornik extends javax.swing.JFrame {
+<<<<<<< HEAD
     
     final private ObradaBoksac obradaBoksac;
+=======
+
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
     
     public Izbornik() {
         initComponents();
         setTitle(Pomocno.getNazivAplikacije());
+<<<<<<< HEAD
         obradaBoksac=new ObradaBoksac();
         txtBrojClanova.setText(String.valueOf(obradaBoksac.getPodaci().size()));
         jmAplikacija.setText(Pomocno.getNazivAplikacije());
+=======
+        jmAplikacija.setText(Pomocno.getNazivAplikacije());
+        
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
         Vrijeme v = new Vrijeme();
         v.start();
         
     }
     
+<<<<<<< HEAD
     
     
+=======
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
     private class Vrijeme extends Thread{
 
         SimpleDateFormat df = new SimpleDateFormat("dd. MM. yyyy. HH:mm:ss");
@@ -62,6 +100,7 @@ public class Izbornik extends javax.swing.JFrame {
     private void initComponents() {
 
         lblVrijeme = new javax.swing.JLabel();
+<<<<<<< HEAD
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -70,16 +109,53 @@ public class Izbornik extends javax.swing.JFrame {
         btnRefresh = new javax.swing.JButton();
         jMenuBar1 = new javax.swing.JMenuBar();
         jmAplikacija = new javax.swing.JMenu();
+=======
+        jMenuBar1 = new javax.swing.JMenuBar();
+        jmAplikacija = new javax.swing.JMenu();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
         jMenuItem1 = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
         jMenuItem2 = new javax.swing.JMenuItem();
         jMenuItem3 = new javax.swing.JMenuItem();
         jMenuItem4 = new javax.swing.JMenuItem();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        jMenuItem5 = new javax.swing.JMenuItem();
+=======
+<<<<<<< HEAD
+        jMenuItem5 = new javax.swing.JMenuItem();
+=======
+<<<<<<< HEAD
+        jMenuItem5 = new javax.swing.JMenuItem();
+=======
+=======
+<<<<<<< HEAD
+        jMenuItem1 = new javax.swing.JMenuItem();
+=======
+>>>>>>> b6aaef2c683705a38b929e3f9521630717b6cd15
+        jMenu2 = new javax.swing.JMenu();
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         lblVrijeme.setText("vrijeme");
 
+<<<<<<< HEAD
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jLabel1.setText("BK OSIJEK");
 
@@ -102,6 +178,22 @@ public class Izbornik extends javax.swing.JFrame {
         });
 
         jmAplikacija.setText("Aplikacije");
+=======
+        jmAplikacija.setText("Aplikacije");
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
 
         jMenuItem1.setText("izlaz");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
@@ -111,6 +203,19 @@ public class Izbornik extends javax.swing.JFrame {
         });
         jmAplikacija.add(jMenuItem1);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
         jMenuBar1.add(jmAplikacija);
 
         jMenu2.setText("Programi");
@@ -139,6 +244,39 @@ public class Izbornik extends javax.swing.JFrame {
         });
         jMenu2.add(jMenuItem4);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+        jMenuItem5.setText("Klub");
+        jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem5ActionPerformed(evt);
+            }
+        });
+        jMenu2.add(jMenuItem5);
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+=======
+>>>>>>> b6aaef2c683705a38b929e3f9521630717b6cd15
+        jMenuBar1.add(jmAplikacija);
+
+        jMenu2.setText("Programi");
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
         jMenuBar1.add(jMenu2);
 
         setJMenuBar(jMenuBar1);
@@ -149,6 +287,7 @@ public class Izbornik extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(lblVrijeme)
+<<<<<<< HEAD
                 .addGap(0, 399, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
@@ -163,10 +302,14 @@ public class Izbornik extends javax.swing.JFrame {
                     .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 379, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 189, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+=======
+                .addGap(0, 365, Short.MAX_VALUE))
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+<<<<<<< HEAD
                 .addContainerGap()
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(11, 11, 11)
@@ -180,19 +323,59 @@ public class Izbornik extends javax.swing.JFrame {
                     .addComponent(txtBrojClanova, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnRefresh))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 37, Short.MAX_VALUE)
+=======
+                .addGap(0, 264, Short.MAX_VALUE)
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
                 .addComponent(lblVrijeme))
         );
 
         pack();
+<<<<<<< HEAD
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
+=======
+<<<<<<< HEAD
+        setLocationRelativeTo(null);
+    }// </editor-fold>//GEN-END:initComponents
+
+=======
+<<<<<<< HEAD
+        setLocationRelativeTo(null);
+    }// </editor-fold>//GEN-END:initComponents
+
+=======
+    }// </editor-fold>//GEN-END:initComponents
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
         HibernateUtil.getSessionFactory().close();
         dispose();
         System.exit(0);
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
     private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
         new ViewBoksac().setVisible(true);
     }//GEN-LAST:event_jMenuItem2ActionPerformed
@@ -205,6 +388,7 @@ public class Izbornik extends javax.swing.JFrame {
         new ViewKategorija().setVisible(true);
     }//GEN-LAST:event_jMenuItem4ActionPerformed
 
+<<<<<<< HEAD
     private void btnRefreshActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRefreshActionPerformed
         txtBrojClanova.setText(String.valueOf(obradaBoksac.getPodaci().size()));
     }//GEN-LAST:event_btnRefreshActionPerformed
@@ -219,12 +403,75 @@ public class Izbornik extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+    private void jMenuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem5ActionPerformed
+        new ViewKlub().setVisible(true);
+    }//GEN-LAST:event_jMenuItem5ActionPerformed
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+=======
+=======
+>>>>>>> b6aaef2c683705a38b929e3f9521630717b6cd15
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+   
+
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenuBar jMenuBar1;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
+<<<<<<< HEAD
     private javax.swing.JMenu jmAplikacija;
     private javax.swing.JLabel lblVrijeme;
     private javax.swing.JTextField txtBrojClanova;
+=======
+<<<<<<< HEAD
+    private javax.swing.JMenuItem jMenuItem5;
+=======
+<<<<<<< HEAD
+    private javax.swing.JMenuItem jMenuItem5;
+=======
+<<<<<<< HEAD
+    private javax.swing.JMenuItem jMenuItem5;
+=======
+=======
+<<<<<<< HEAD
+    private javax.swing.JMenuItem jMenuItem1;
+=======
+>>>>>>> b6aaef2c683705a38b929e3f9521630717b6cd15
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
+    private javax.swing.JMenu jmAplikacija;
+    private javax.swing.JLabel lblVrijeme;
+>>>>>>> e1c9dbcc7bfe25ca452da83181d277b750753113
     // End of variables declaration//GEN-END:variables
 }
