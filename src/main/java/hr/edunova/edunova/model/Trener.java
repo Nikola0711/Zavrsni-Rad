@@ -18,7 +18,7 @@ public class Trener extends Entitet{
     private String prezime;
     private String oib;
     private String iban;
-    private String uloga;
+   
 
     public String getIme() {
         return ime;
@@ -52,14 +52,11 @@ public class Trener extends Entitet{
         this.iban = iban;
     }
 
-    public String getUloga() {
-        return uloga;
-    }
-
-    public void setUloga(String uloga) {
-        this.uloga = uloga;
-    }
     
+    @Override
+    public String toString() {
+        return this.ime +" "+ this.prezime;
+    }
     
     
     

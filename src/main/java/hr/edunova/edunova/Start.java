@@ -6,6 +6,8 @@
 package hr.edunova.edunova;
 
 import hr.edunova.edunova.util.HibernateUtil;
+import hr.edunova.edunova.util.Pomocno;
+import hr.edunova.edunova.view.SplashScreen;
 
 /**
  *
@@ -14,8 +16,8 @@ import hr.edunova.edunova.util.HibernateUtil;
 public class Start {
     
     public Start(){
-        HibernateUtil.getSessionFactory().openSession();
-        
+        new SplashScreen().setVisible(true);
+        //Pomocno.PocetniInsert();
     }
     
     public static void main(String[] args) {

@@ -7,6 +7,7 @@ package hr.edunova.edunova.model;
 
 import java.math.BigDecimal;
 import javax.persistence.Entity;
+import javax.persistence.ManyToOne;
 
 
 
@@ -21,6 +22,15 @@ public class Klub extends Entitet{
      private String adresa;
      private BigDecimal clanarina;
      private Integer brojclanova;
+
+    public Integer getBrojclanova() {
+        return brojclanova;
+    }
+
+    public void setBrojclanova(Integer brojclanova) {
+        this.brojclanova = brojclanova;
+    }
+     
 
     public String getNaziv() {
         return naziv;
@@ -46,13 +56,7 @@ public class Klub extends Entitet{
         this.clanarina = clanarina;
     }
 
-    public Integer getBrojclanova() {
-        return brojclanova;
-    }
-
-    public void setBrojclanova(Integer brojclanova) {
-        this.brojclanova = brojclanova;
-    }
+   
      
      
     

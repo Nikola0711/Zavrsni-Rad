@@ -15,7 +15,7 @@ import javax.persistence.Entity;
 public class Kategorija extends Entitet{
     
     private String naziv;
-    private Integer raspon;
+    private String raspon;
 
     public String getNaziv() {
         return naziv;
@@ -25,13 +25,21 @@ public class Kategorija extends Entitet{
         this.naziv = naziv;
     }
 
-    public Integer getRaspon() {
+    public String getRaspon() {
         return raspon;
     }
 
-    public void setRaspon(Integer raspon) {
+    public void setRaspon(String raspon) {
         this.raspon = raspon;
     }
+
+   
+
+    @Override
+    public String toString() {
+        return this.naziv;
+    }
+    
     
     
     
