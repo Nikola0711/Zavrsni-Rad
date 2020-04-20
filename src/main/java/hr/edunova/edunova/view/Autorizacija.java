@@ -22,9 +22,51 @@ public class Autorizacija extends javax.swing.JFrame {
     public Autorizacija() {
         initComponents();
     }
+<<<<<<< HEAD
                                                  
 
          
+=======
+<<<<<<< HEAD
+                                                 
+
+         
+=======
+<<<<<<< HEAD
+                                                 
+
+         
+=======
+<<<<<<< HEAD
+                                                 
+
+         
+=======
+    
+    private void btnAutorizirajActionPerformed(java.awt.event.ActionEvent evt) {                                               
+       
+        ObradaOperater op = new ObradaOperater();
+        
+        Operater o = op.autoriziraj(txtEmail.getText().trim(), new String(pswLozinka.getPassword()));
+        
+        
+        if(o==null){
+            JOptionPane.showMessageDialog(null, "Greška, ponovite");
+            return;
+        }
+        Pomocno.LOGIRAN=o;
+       new Izbornik().setVisible(true);
+       dispose();
+        
+    }                                              
+
+    private void btnRegistracijaActionPerformed(java.awt.event.ActionEvent evt) {                                                
+        new Registracija().setVisible(true);
+    }         
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -46,6 +88,10 @@ public class Autorizacija extends javax.swing.JFrame {
 
         jLabel1.setText("email");
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
         txtEmail.setText("nikolajuzbasic@gmail.com");
 
         jLabel2.setText("lozinka");
@@ -53,6 +99,18 @@ public class Autorizacija extends javax.swing.JFrame {
         pswLozinka.setText("n");
 
         btnAutoriziraj.setText("Autoriziraj");
+<<<<<<< HEAD
+=======
+=======
+        jLabel2.setText("lozinka");
+
+        btnAutoriziraj.setText("Autoriziraj");
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
         btnAutoriziraj.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAutorizirajActionPerformed(evt);
@@ -65,6 +123,19 @@ public class Autorizacija extends javax.swing.JFrame {
                 btnRegistracijaActionPerformed(evt);
             }
         });
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+
+        btnRegistracija.setText("Registracija");
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -105,6 +176,16 @@ public class Autorizacija extends javax.swing.JFrame {
         );
 
         pack();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
@@ -127,6 +208,19 @@ public class Autorizacija extends javax.swing.JFrame {
         new Registracija().setVisible(true);
     }//GEN-LAST:event_btnRegistracijaActionPerformed
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    }// </editor-fold>//GEN-END:initComponents
+
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

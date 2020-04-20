@@ -27,7 +27,14 @@ public class ViewKategorija extends javax.swing.JFrame {
     public ViewKategorija() {
         initComponents();
         obrada=new ObradaKategorije();
+<<<<<<< HEAD
         ucitaj();
+=======
+<<<<<<< HEAD
+        ucitaj();
+=======
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
     }
     
     private void ucitaj() {
@@ -38,14 +45,29 @@ public class ViewKategorija extends javax.swing.JFrame {
     
     private void ucitajVrijednosti() {
         obrada.getEntitet().setNaziv(txtNaziv.getText());
+<<<<<<< HEAD
         obrada.getEntitet().setRaspon(txtRaspon.getText());
+=======
+<<<<<<< HEAD
+        obrada.getEntitet().setRaspon(txtRaspon.getText());
+=======
+        obrada.getEntitet().setRaspon(Integer.parseInt(txtRaspon.getText()));
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
         
         
     }
     
      private void postaviVrijednosti() {
         txtNaziv.setText(obrada.getEntitet().getNaziv());
+<<<<<<< HEAD
         txtRaspon.setText(obrada.getEntitet().getRaspon());
+=======
+<<<<<<< HEAD
+        txtRaspon.setText(obrada.getEntitet().getRaspon());
+=======
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
         
 
        
@@ -72,7 +94,15 @@ public class ViewKategorija extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
 
+<<<<<<< HEAD
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+=======
+<<<<<<< HEAD
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+=======
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
 
         jLabel1.setText("Naziv");
 
@@ -150,7 +180,14 @@ public class ViewKategorija extends javax.swing.JFrame {
         );
 
         pack();
+<<<<<<< HEAD
         setLocationRelativeTo(null);
+=======
+<<<<<<< HEAD
+        setLocationRelativeTo(null);
+=======
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed

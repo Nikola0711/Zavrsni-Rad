@@ -5,6 +5,16 @@
  */
 package hr.edunova.edunova.util;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import hr.edunova.edunova.controller.ObradaOperater;
@@ -13,6 +23,7 @@ import hr.edunova.edunova.view.ViewBoksac;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.lang.reflect.Type;
+<<<<<<< HEAD
 import java.math.BigDecimal;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
@@ -25,6 +36,22 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 import org.mindrot.jbcrypt.BCrypt;
+=======
+import java.net.URL;
+import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
+import java.util.List;
+import org.mindrot.jbcrypt.BCrypt;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+import hr.edunova.edunova.model.Operater;
+>>>>>>> 644a78ad43d18bb645c333b3ae2fffa980f11bf8
+>>>>>>> 8bb869f8b92c3a5b32fe77188c0feea924659ee2
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
 
 /**
  *
@@ -34,8 +61,11 @@ public class Pomocno {
     
     public static Operater LOGIRAN;
     
+<<<<<<< HEAD
     private final static DecimalFormat df = df();
     
+=======
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
     public static String getNazivAplikacije(){
         return "Edunova APP";
     }
@@ -123,6 +153,7 @@ public class Pomocno {
         }
      }
      
+<<<<<<< HEAD
      public static Date convertToDateViaInstant(LocalDate dateToConvert) {
         return java.util.Date.from(dateToConvert.atStartOfDay()
           .atZone(ZoneId.systemDefault())
@@ -169,6 +200,8 @@ public class Pomocno {
          dfl.applyPattern("#,###.00");
     return dfl;
     }
+=======
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
      
     
 

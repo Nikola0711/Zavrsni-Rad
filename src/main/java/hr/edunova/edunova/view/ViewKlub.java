@@ -5,6 +5,7 @@
  */
 package hr.edunova.edunova.view;
 
+<<<<<<< HEAD
 import hr.edunova.edunova.controller.Obrada;
 import hr.edunova.edunova.controller.ObradaBoksac;
 import hr.edunova.edunova.controller.ObradaKlub;
@@ -16,6 +17,8 @@ import java.util.Date;
 import javax.swing.DefaultListModel;
 import javax.swing.JOptionPane;
 
+=======
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
 /**
  *
  * @author Nino
@@ -25,6 +28,7 @@ public class ViewKlub extends javax.swing.JFrame {
     /**
      * Creates new form ViewKlub
      */
+<<<<<<< HEAD
     private final ObradaKlub obrada;
     public ViewKlub() {
         initComponents();
@@ -64,6 +68,10 @@ public class ViewKlub extends javax.swing.JFrame {
         txtClanarina.setText(Pomocno.getFormatDecimalniBroj(obrada.getEntitet().getClanarina()));
   
        
+=======
+    public ViewKlub() {
+        initComponents();
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
     }
 
     /**
@@ -83,9 +91,18 @@ public class ViewKlub extends javax.swing.JFrame {
         txtClanarina = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
         txtBrojClanova = new javax.swing.JTextField();
+<<<<<<< HEAD
         btnPromjeni = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+=======
+
+<<<<<<< HEAD
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+=======
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
 
         jLabel1.setText("Naziv kluba");
 
@@ -95,6 +112,7 @@ public class ViewKlub extends javax.swing.JFrame {
 
         jLabel4.setText("Broj clanova");
 
+<<<<<<< HEAD
         btnPromjeni.setText("Promjeni");
         btnPromjeni.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -102,6 +120,8 @@ public class ViewKlub extends javax.swing.JFrame {
             }
         });
 
+=======
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -116,8 +136,12 @@ public class ViewKlub extends javax.swing.JFrame {
                     .addComponent(jLabel3)
                     .addComponent(txtClanarina)
                     .addComponent(jLabel4)
+<<<<<<< HEAD
                     .addComponent(txtBrojClanova, javax.swing.GroupLayout.DEFAULT_SIZE, 184, Short.MAX_VALUE)
                     .addComponent(btnPromjeni, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+=======
+                    .addComponent(txtBrojClanova, javax.swing.GroupLayout.DEFAULT_SIZE, 184, Short.MAX_VALUE))
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
                 .addContainerGap(20, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -139,12 +163,16 @@ public class ViewKlub extends javax.swing.JFrame {
                 .addComponent(jLabel4)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(txtBrojClanova, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+<<<<<<< HEAD
                 .addGap(18, 18, 18)
                 .addComponent(btnPromjeni, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)
+=======
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
                 .addContainerGap(25, Short.MAX_VALUE))
         );
 
         pack();
+<<<<<<< HEAD
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
@@ -162,6 +190,50 @@ public class ViewKlub extends javax.swing.JFrame {
    
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnPromjeni;
+=======
+<<<<<<< HEAD
+        setLocationRelativeTo(null);
+=======
+>>>>>>> f8638fec1a84a5441f66f26273dc874bd17b6b92
+    }// </editor-fold>//GEN-END:initComponents
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String args[]) {
+        /* Set the Nimbus look and feel */
+        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         */
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(ViewKlub.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(ViewKlub.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(ViewKlub.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(ViewKlub.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        //</editor-fold>
+
+        /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new ViewKlub().setVisible(true);
+            }
+        });
+    }
+
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+>>>>>>> 7b895b298925f13ce8ac150be7d48250d2639c06
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
